@@ -29,3 +29,27 @@ print(len(a))
 print(bool(2>1))
 print(bool(2>6))
 print(bool(len(a)>len(b)))
+my_dict = {'name': 'Neaga', 'age': 21, 'magic_power': False}
+
+print(my_dict['name'])
+print(len(my_dict))
+list(my_dict.keys())
+list(my_dict.values())
+list(my_dict.items())
+
+my_dict['favourite_snack'] = 'Grapes'
+
+my_dict.get('age')
+my_dict.get('ages', 0)
+
+my_tuple = ('mar', 'pere', 'mango', 'pere')
+
+mar, pere, mango, pere = my_tuple
+
+print(len(my_tuple))
+
+my_tuple[2]
+
+
+
+print(my_tuple.count('pere'))
