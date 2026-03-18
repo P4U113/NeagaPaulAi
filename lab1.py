@@ -50,6 +50,28 @@ print(len(my_tuple))
 
 my_tuple[2]
 
-
-
 print(my_tuple.count('pere'))
+
+new_list = [1,2,3,3,3,4,4,5,6,1]
+
+set(new_list)
+
+print(new_list)
+print(new_list.remove(1))
+set1 = {1,2,3}
+
+set2 = {3,4,5}
+set3= set1.union(set2)
+print(set3)
+
+set4 = set1.intersection(set2)
+print(set4)
+set5 = set1.difference(set2)
+
+set6 = set1.symmetric_difference(set2)
+
+set1.issubset(set2)
+
+set1.issuperset(set2)
+print(set1)
+set1.isdisjoint(set2)
