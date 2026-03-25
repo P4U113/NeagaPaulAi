@@ -1,4 +1,6 @@
 import random
+
+#exercitiul 5
 print("Bine ai venit la Loteria Python!" )
 print("Alege 6 numere între 1 și 49.")
 a=[]
